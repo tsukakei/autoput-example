@@ -19,7 +19,7 @@ public class Triangle {
         int min = Math.min(a, Math.min(b, c));
         int mid = a + b + c - max - min;
 
-        if (max > mid + min) {
+        if (max >= mid + min) {
             return Type.NotTriangle;
         }
 
