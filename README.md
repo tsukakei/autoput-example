@@ -65,6 +65,11 @@ Sample projects are as follows:
  $ sh/run.sh Triangle PUT jacoco
  $ sh/run.sh Person PUT jacoco
 ```
+    
+- See Coverage Report
+```
+ $ open target/site/jacoco/index.html
+```
 
 - Push Your Work
 
