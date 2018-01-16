@@ -37,8 +37,9 @@ Sample projects are as follows:
 
 - Implement
 
-You get 10 minutes for each project. 
-
+You get 10 minutes for each project.
+I'd like you to implement test cases to achieve higher branch coverage.
+Even after your test cases get 100% coverage, I'd like you to write more test cases.
 
 - Run Test Cases
 
