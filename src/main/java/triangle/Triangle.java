@@ -1,4 +1,4 @@
-package sample2;
+package triangle;
 
 public class Triangle {
     public enum Type {
