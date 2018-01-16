@@ -37,6 +37,8 @@ Sample projects are as follows:
 
 - Implement
 
+You get 10 minutes for each project. 
+
 
 - Run Test Cases
 
