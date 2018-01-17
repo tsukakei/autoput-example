@@ -1,0 +1,29 @@
+# Questions
+
+## Which is more readable, CUT or PUT?
+
+
+## Do you think PUT can separate test procedures and parameters?
+
+
+# Informal Comment
+
+## CUT's good points and bad points
+
+good
+
+- 
+
+bad
+
+- 
+
+## PUT's good points and bad points
+
+good
+
+- 
+
+bad
+
+- 
