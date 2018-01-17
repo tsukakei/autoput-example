@@ -1,0 +1,38 @@
+# Questions
+
+## Which is more readable, CUT or PUT?
+
+2
+
+## Do you think PUT can separate test procedures and parameters?
+
+5
+
+# Informal Comment
+
+## CUT's good points and bad points
+
+good
+
+- テストがロジックとパラメータのみでは記述できないほど複雑にしないといけない場合に対応できる（テストが柔軟に書ける）
+
+bad
+
+-　同じロジックのものを書く時には冗長になってしまう
+-　ロジックの変更に弱い（全部修正しなきゃいけなくなってしまう）
+
+## PUT's good points and bad points
+
+good
+
+-　ロジックが同じものをまとめることができるので、より早くテストが書ける
+-　ロジックの修正にも強い
+
+bad
+
+-　テストにコケたときの警告がわかりづらい
+-　テスト自体が複雑に書かざるを得なくなってしまう
+
+medium
+- 今回の実験の場合は、CUTの時はテストをコピペしているうちになんとなくロジックを見ていたのでテストの内容を把握していたが、
+- PUTの場合はすでにあるロジックに対して、インプットとアウトプットしか書かないためロジックをほとんど見なかった
