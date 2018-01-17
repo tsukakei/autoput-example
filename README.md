@@ -80,3 +80,12 @@ Even after your test cases get 100% coverage, I'd like you to write more test ca
  $ git commit -m "User experiment: Your Name"
  $ git push origin yourname
 ```
+
+- Thank you for your cooperation!
+
+## Great Contributors
+- Chihiro Iida (@iidachihiro)
+- Yentian Mao
+- Koki Kato
+- Daichi Morita
+- Shinnosuke Saruwatari
