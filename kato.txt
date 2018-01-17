@@ -1,0 +1,32 @@
+# Questions
+
+## Which is more readable, CUT or PUT?
+
+4
+
+## Do you think PUT can separate test procedures and parameters?
+
+4
+
+# Informal Comment
+
+## CUT's good points and bad points
+
+good
+
+- テストケースをメソッド毎に分離するので、失敗したテストケースの数が分かりやすい。
+
+bad
+
+- パラメータだけ異なり処理が共通であるとき、共通処理を書く分の記述量が増える
+
+## PUT's good points and bad points
+
+good
+
+- 記述量を減らせる
+- テストプロセスにおける共通の処理が一つにまとまっているので処理の変更に強い
+
+bad
+
+- テストケースの選択・実行が@DataPointsと@Theoryによって行われているが、 一見したときに挙動が分かりづらい
