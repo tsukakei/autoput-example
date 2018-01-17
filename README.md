@@ -26,7 +26,7 @@ Sample projects are as follows:
  $ cd workspace
  $ git clone git@github.com:tsukakei/autoput-example.git
  $ cd autoput-example
- $ mvn compile test-compile dependency:copy-dependenices 
+ $ mvn compile test-compile dependency:copy-dependencies 
 ``` 
 
 - Change Git Branch
@@ -80,6 +80,15 @@ Even after your test cases get 100% coverage, I'd like you to write more test ca
  $ git commit -m "User experiment: Your Name"
  $ git push origin yourname
 ```
+
+- Questions
+    - Which is more readable, CUT or PUT?
+        - from 1 (CUT) to 5 (PUT)
+    - Do you think PUT can separate test procedures and parameters?
+        - from 1 (strongly disagree) to 5 (strongly agree) 
+- Informal Comment
+    - CUT's good points and bad points
+    - PUT's good points and bad points
 
 - Thank you for your cooperation!
 
