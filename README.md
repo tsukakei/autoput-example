@@ -74,27 +74,36 @@ Even after your test cases get 100% coverage, I'd like you to write more test ca
  $ open target/site/jacoco/index.html
 ```
 
+- Answer Questions & Write Informal Comment
+    - Questions
+        - Which is more readable, CUT or PUT?
+            - from 1 (CUT) to 5 (PUT)
+        - Do you think PUT can separate test procedures and parameters?
+            - from 1 (strongly disagree) to 5 (strongly agree) 
+    - Informal Comments
+        - CUT's good points and bad points
+        - PUT's good points and bad points
+```
+ $ vim yourname.txt
+``` 
+    
+
 - Push Your Work
 
 ```
+ $ git add src/test/java/*.java
+ $ git add yourname.txt
  $ git commit -m "User experiment: Your Name"
  $ git push origin yourname
 ```
 
-- Questions
-    - Which is more readable, CUT or PUT?
-        - from 1 (CUT) to 5 (PUT)
-    - Do you think PUT can separate test procedures and parameters?
-        - from 1 (strongly disagree) to 5 (strongly agree) 
-- Informal Comment
-    - CUT's good points and bad points
-    - PUT's good points and bad points
+
 
 - Thank you for your cooperation!
 
 ## Great Contributors
-- Chihiro Iida (@iidachihiro)
+- Chihiro Iida ([@iidachihiro](https://github.com/iidachihiro))
 - Yentian Mao
-- Koki Kato
+- Koki Kato ([@ajalab](https://github.com/ajalab))
 - Daichi Morita
 - Shinnosuke Saruwatari
