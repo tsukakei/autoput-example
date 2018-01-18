@@ -10,4 +10,22 @@ public class PersonCUT {
         String expected = "Hello, I am Ms. Alice.";
         Assert.assertEquals(expected, person.sayHello());
     }
+    @Test
+    public void testSayHello2() {
+        Person person = new Person(Person.Sex.MALE, "Bob");
+        String expected = "Hello, I am Mr. Bob.";
+        Assert.assertEquals(expected, person.sayHello());
+    }
+    @Test
+    public void testSayHello3() {
+        Person person = new Person(Person.Sex.FEMALE, "");
+        String expected = "Hello, I am Ms. .";
+        Assert.assertEquals(expected, person.sayHello());
+    }
+    @Test
+    public void testSayHello4() {
+        Person person = new Person(Person.Sex.MALE, " ");
+        String expected = "Hello, I am Mr.  .";
+        Assert.assertEquals(expected, person.sayHello());
+    }
 }

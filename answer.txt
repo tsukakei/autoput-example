@@ -1,10 +1,10 @@
 # Questions
 
 ## Which is more readable, CUT or PUT?
-
+4
 
 ## Do you think PUT can separate test procedures and parameters?
-
+5
 
 # Informal Comment
 
@@ -12,18 +12,18 @@
 
 good
 
-- 
+- Easy to understand what function is called.
 
 bad
 
-- 
+- Length of code is likely to get longer.
 
 ## PUT's good points and bad points
 
 good
 
-- 
+- Easy to add new tests.
 
 bad
 
-- 
+- Becomes burdensome to check parameters and expected result of tests when there are many tests.

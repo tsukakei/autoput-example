@@ -13,6 +13,16 @@ public class FizzBuzzPUT {
     @DataPoints
     public static Fixture[] TestData = {
             new Fixture("1", 1),
+            new Fixture(null, -1),
+            new Fixture("FizzBuzz", 15),
+            new Fixture("Fizz", 333),
+            new Fixture("Buzz", 1100),
+            new Fixture("FizzBuzz", 0),
+            new Fixture("64", 64),
+            new Fixture(null, -15),
+            new Fixture(null, -5),
+            new Fixture(null, -33),
+            new Fixture("53", 53),
     };
 
     @Theory
