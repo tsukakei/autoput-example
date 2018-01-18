@@ -10,10 +10,26 @@ import org.junit.runner.RunWith;
 public class DecimalConverterPUT {
 
     private static int[] INPUT1 = { DecimalConverter.Binary, 2 };
+    private static int[] INPUT2 = { DecimalConverter.Octal, 2 };
+    private static int[] INPUT3 = { DecimalConverter.Decimal, 2 };
+    private static int[] INPUT4 = { DecimalConverter.Hexadecimal, 2 };
+    private static int[] INPUT5 = { DecimalConverter.Hexadecimal, -1 };
+    private static int[] INPUT6 = { '4', 10 };
+    private static int[] INPUT7 = { DecimalConverter.Decimal, 10 };
+    private static int[] INPUT8 = { DecimalConverter.Octal, 8 };
+    private static int[] INPUT9 = { DecimalConverter.Binary, 10 };
 
     @DataPoints
     public static Fixture[] TestData = {
             new Fixture("10", INPUT1), // Data1
+            new Fixture("2", INPUT2), // Data1
+            new Fixture("2", INPUT3), // Data1
+            new Fixture("2", INPUT4), // Data1
+            new Fixture(null, INPUT5), // Data1
+            new Fixture(null, INPUT6), // Data1
+            new Fixture("10", INPUT7), // Data1
+            new Fixture("10", INPUT8), // Data1
+            new Fixture("1010", INPUT9), // Data1
     };
 
     @Theory

@@ -1,10 +1,10 @@
 # Questions
 
-## Which is more readable, CUT or PUT?
-
+## Do you think CUT is more readable than PUT? (1 strongly agree, 5 strongly disagree)
+2
 
 ## Do you think PUT can separate test procedures and parameters?
-
+5
 
 # Informal Comment
 
@@ -12,18 +12,18 @@
 
 good
 
-- 
+- Easy to read and understand
 
 bad
 
-- 
+- Repetitive Code
 
 ## PUT's good points and bad points
 
 good
 
-- 
+- Less code, configuration over convention
 
 bad
 
-- 
+- Ralatively harder to understand in compare with CUT
