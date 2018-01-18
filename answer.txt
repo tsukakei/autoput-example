@@ -1,9 +1,9 @@
 # Questions
 
-## Which is more readable, CUT or PUT?
+## Do you think PUT is more readable than CUT? (1 strongly disagree, 5 strongly agree)
 
 
-## Do you think PUT can separate test procedures and parameters?
+## Do you think PUT can separate test procedures and parameters? (1 strongly disagree, 5 strongly agree)
 
 
 # Informal Comment

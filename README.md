@@ -103,7 +103,7 @@ Even after your test cases get 100% coverage, I'd like you to write more test ca
 
 ## Great Contributors
 - Chihiro Iida ([@iidachihiro](https://github.com/iidachihiro))
-- Yentian Mao
+- Yentian Mao ([@myt588](https://github.com/myt588))
 - Koki Kato ([@ajalab](https://github.com/ajalab))
 - Daichi Morita ([@forestaa](https://github.com/forestaa))
 - Shinnosuke Saruwatari
