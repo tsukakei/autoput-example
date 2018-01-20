@@ -2,11 +2,11 @@ package triangle;
 
 public class Triangle {
 
-    static final int Equilateral  = 1; // 正三角形
-    static final int Isosceles    = 2; // 二等辺三角形
-    static final int Scalene      = 3; // その他の三角形
-    static final int NotTriangle  = 4; // 三角形ができない
-    static final int IllegalInput = 5; // 不正入力(0など)
+    public static final int Equilateral  = 1; // 正三角形
+    public static final int Isosceles    = 2; // 二等辺三角形
+    public static final int Scalene      = 3; // その他の三角形
+    public static final int NotTriangle  = 4; // 三角形ができない
+    public static final int IllegalInput = 5; // 不正入力(0など)
 
 
     public static int judgeTriangle(int a, int b, int c) {
