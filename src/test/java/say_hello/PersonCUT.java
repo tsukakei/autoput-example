@@ -53,4 +53,23 @@ public class PersonCUT {
         String expected = "Hello, I am Mr. Parker.";
         Assert.assertEquals(expected, person.sayHello());
     }
+    // S.Saruwatari
+    @Test
+    public void testSayHello9() {
+        Person person = new Person(Person.Sex.MALE, "Bob");
+        String expected = "Hello, I am Mr. Bob.";
+        Assert.assertEquals(expected, person.sayHello());
+    }
+    @Test
+    public void testSayHello10() {
+        Person person = new Person(Person.Sex.FEMALE, "");
+        String expected = "Hello, I am Ms. .";
+        Assert.assertEquals(expected, person.sayHello());
+    }
+    @Test
+    public void testSayHello11() {
+        Person person = new Person(Person.Sex.MALE, " ");
+        String expected = "Hello, I am Mr.  .";
+        Assert.assertEquals(expected, person.sayHello());
+    }
 }

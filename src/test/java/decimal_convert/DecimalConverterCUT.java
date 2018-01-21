@@ -98,4 +98,30 @@ public class DecimalConverterCUT {
         String actual = DecimalConverter.decimalConvert(DecimalConverter.Binary, -1);
         Assert.assertEquals(null, actual);
     }
+    // S.Saruwatari
+    @Test
+    public void testDecimalConvert19() {
+        String actual = DecimalConverter.decimalConvert(DecimalConverter.Binary, -1);
+        Assert.assertEquals(null, actual);
+    }
+    @Test
+    public void testDecimalConvert20() {
+        String actual = DecimalConverter.decimalConvert(DecimalConverter.Octal, 9);
+        Assert.assertEquals("11", actual);
+    }
+    @Test
+    public void testDecimalConvert21() {
+        String actual = DecimalConverter.decimalConvert(DecimalConverter.Decimal, 12345);
+        Assert.assertEquals("12345", actual);
+    }
+    @Test
+    public void testDecimalConvert22() {
+        String actual = DecimalConverter.decimalConvert(DecimalConverter.Hexadecimal, 1000);
+        Assert.assertEquals("3e8", actual);
+    }
+    @Test
+    public void testDecimalConvert23() {
+        String actual = DecimalConverter.decimalConvert(0, 2);
+        Assert.assertEquals(null, actual);
+    }
 }
