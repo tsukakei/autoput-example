@@ -5,6 +5,7 @@ public class Triangle {
         Equilateral, // 正三角形
         Isosceles,   // 二等辺三角形
         Scalene,     // その他の三角形
+        NotTriangleButFlatLine,        // 直線
         NotTriangle, // 三角形ができない
         IllegalInput // 不正入力(0など)
     }
@@ -19,7 +20,9 @@ public class Triangle {
         int min = Math.min(a, Math.min(b, c));
         int mid = a + b + c - max - min;
 
-        if (max >= mid + min) {
+        if (max == mid + min) {
+            return Type.NotTriangleButFlatLine;
+        } else if (max > mid + min) {
             return Type.NotTriangle;
         }
 

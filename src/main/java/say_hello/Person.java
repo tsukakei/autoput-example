@@ -15,7 +15,7 @@ public class Person {
     }
 
     public String sayHello() {
-        String prefix = (this.sex.equals(Sex.MALE)) ? "Mr." : "Ms.";
+        String prefix = (this.sex.equals(Sex.MALE)) ? "Mr." : "Miss";
         return "Hello, I am " + prefix + " " + this.name + ".";
     }
 }

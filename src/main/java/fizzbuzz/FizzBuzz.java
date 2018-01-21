@@ -2,7 +2,7 @@ package fizzbuzz;
 
 public class FizzBuzz {
     public static String fizzbuzz(int i) {
-        if (i < 0) {
+        if (i <= 0) {
             return null;
         }
         if (i % 3 == 0 && i % 5 == 0) {

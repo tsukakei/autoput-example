@@ -10,7 +10,7 @@ public class DecimalConverter {
 
     public static String decimalConvert(int base, int num) {
         if (num < 0) {
-            return null;
+            return "IllegalNum";
         }
 
         if (base == Binary) {
@@ -22,7 +22,6 @@ public class DecimalConverter {
         } else if (base == Hexadecimal) {
             return Integer.toHexString(num);
         }
-
-        return null;
+        return "IllegalBase";
     }
 }
