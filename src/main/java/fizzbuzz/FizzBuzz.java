@@ -12,7 +12,12 @@ public class FizzBuzz {
         } else if (i % 5 == 0) {
             return "Buzz";
         } else {
-            return String.valueOf(i);
+            String str =  String.valueOf(i);
+            if (str.contains("3")) {
+                return "Sekai-no-Nabeatsu";
+            } else {
+                return str;
+            }
         }
     }
 }

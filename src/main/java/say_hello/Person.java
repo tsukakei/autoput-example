@@ -15,6 +15,9 @@ public class Person {
     }
 
     public String sayHello() {
+        if (this.name.trim().isEmpty()) {
+            return "I AM A CAT. As yet I have no name.";
+        }
         String prefix = (this.sex.equals(Sex.MALE)) ? "Mr." : "Miss";
         return "Hello, I am " + prefix + " " + this.name + ".";
     }
