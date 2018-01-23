@@ -26,7 +26,7 @@ public class TrianglePUT {
     private static int[] INPUT7 = {3, 4, 5};
     private static Triangle.Type EXPECTED7 = Triangle.Type.Scalene;
     private static int[] INPUT8 = {2, 1, 1};
-    private static Triangle.Type EXPECTED8 = Triangle.Type.NotTriangle;
+    private static Triangle.Type EXPECTED8 = Triangle.Type.NotTriangleButFlatLine;
     private static int[] INPUT9 = {0, 0, 0};
     private static Triangle.Type EXPECTED9 = Triangle.Type.IllegalInput;
     private static int[] INPUT10 = {5, 12, 13};

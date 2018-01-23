@@ -91,18 +91,18 @@ public class DecimalConverterCUT {
     @Test
     public void testDecimalConvert17() {
         String actual = DecimalConverter.decimalConvert(-1, 1);
-        Assert.assertEquals(null, actual);
+        Assert.assertEquals("IllegalBase", actual);
     }
     @Test
     public void testDecimalConvert18() {
         String actual = DecimalConverter.decimalConvert(DecimalConverter.Binary, -1);
-        Assert.assertEquals(null, actual);
+        Assert.assertEquals("IllegalNum", actual);
     }
     // S.Saruwatari
     @Test
     public void testDecimalConvert19() {
         String actual = DecimalConverter.decimalConvert(DecimalConverter.Binary, -1);
-        Assert.assertEquals(null, actual);
+        Assert.assertEquals("IllegalNum", actual);
     }
     @Test
     public void testDecimalConvert20() {
@@ -122,6 +122,6 @@ public class DecimalConverterCUT {
     @Test
     public void testDecimalConvert23() {
         String actual = DecimalConverter.decimalConvert(0, 2);
-        Assert.assertEquals(null, actual);
+        Assert.assertEquals("IllegalBase", actual);
     }
 }

@@ -9,14 +9,14 @@ import org.junit.runner.RunWith;
 @RunWith(Theories.class)
 public class PersonPUT {
     private static Object[] INPUT1    = { Person.Sex.FEMALE, "Alice"};
-    private static String   EXPECTED1 = "Hello, I am Ms. Alice.";
+    private static String   EXPECTED1 = "Hello, I am Miss Alice.";
     // Y.Mao
     private static Object[] INPUT2    = { Person.Sex.MALE, "Bob"};
     private static String   EXPECTED2 = "Hello, I am Mr. Bob.";
     private static Object[] INPUT3    = { Person.Sex.MALE, "Tim"};
     private static String   EXPECTED3 = "Hello, I am Mr. Tim.";
     private static Object[] INPUT4    = { Person.Sex.FEMALE, "Lily"};
-    private static String   EXPECTED4 = "Hello, I am Ms. Lily.";
+    private static String   EXPECTED4 = "Hello, I am Miss Lily.";
     private static Object[] INPUT5    = { Person.Sex.MALE, "Kobe"};
     private static String   EXPECTED5 = "Hello, I am Mr. Kobe.";
     private static Object[] INPUT6    = { Person.Sex.MALE, "Tmac"};
@@ -29,7 +29,7 @@ public class PersonPUT {
     private static Object[] INPUT9    = { Person.Sex.MALE, "Bob"};
     private static String   EXPECTED9 = "Hello, I am Mr. Bob.";
     private static Object[] INPUT10    = { Person.Sex.FEMALE, ""};
-    private static String   EXPECTED10 = "Hello, I am Ms. .";
+    private static String   EXPECTED10 = "Hello, I am Miss .";
     private static Object[] INPUT11    = { Person.Sex.MALE, " "};
     private static String   EXPECTED11 = "Hello, I am Mr.  .";
 

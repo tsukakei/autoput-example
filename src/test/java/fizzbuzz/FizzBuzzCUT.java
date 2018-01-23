@@ -34,7 +34,7 @@ public class FizzBuzzCUT {
     @Test
     public void testFizzBuzz6() {
         String actual = FizzBuzz.fizzbuzz(0);
-        Assert.assertEquals("FizzBuzz", actual);
+        Assert.assertEquals(null, actual);
     }
     @Test
     public void testFizzBuzz7() {
