@@ -130,7 +130,7 @@ public class AdderTest {
 
 例：
 ```
-Failed tests: testAdd2(AdderTest): expected:<FizzBuzz> but was:<null>
+Failed tests: testAdd2(AdderTest): expected:<-4> but was:<-3>
 ```
 
 
@@ -191,7 +191,7 @@ Failed tests: testAdd(AdderTest): testAdd("AddetTest$Fixture@299a06ac" <from Tes
 
 
 読み方：
-`Adder` クラスの `testAdd` メソッドが `TestData[1]` で失敗したよ。
+`Adder` クラスの `testAdd` メソッドが `TestData[1]` (0始まり)で失敗したよ。
 
 ```
 Failed tests: テストメソッド名(テストクラス名): テストメソッド名("テストクラス名t$Fixture@おまじない" <from n番目のテストデータ(0始まり)>)
