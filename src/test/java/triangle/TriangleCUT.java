@@ -3,6 +3,8 @@ package triangle;
 import org.junit.Assert;
 import org.junit.Test;
 
+import triangle.Triangle.Type;
+
 public class TriangleCUT {
 
     @Test
@@ -34,7 +36,7 @@ public class TriangleCUT {
     @Test
     public void testTriangle5() {
         Triangle.Type ans = Triangle.judgeTriangle(2, 2, 1);
-        Assert.assertEquals(Triangle.Type.Isosceles, ans);
+        Assert.assertEquals(Triangle.Type.IsoscelesWithOneShortSide, ans);
     }
     @Test
     public void testTriangle6() {
@@ -105,6 +107,6 @@ public class TriangleCUT {
     @Test
     public void testTriangle19() {
         Triangle.Type ans = Triangle.judgeTriangle(3, 4, 4);
-        Assert.assertEquals(Triangle.Type.Isosceles, ans);
+        Assert.assertEquals(Triangle.Type.IsoscelesWithOneShortSide, ans);
     }
 }

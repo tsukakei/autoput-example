@@ -45,12 +45,12 @@ public class DecimalConverterPUT {
     private static int[] INPUT16 = { DecimalConverter.Hexadecimal, 100 };
     private static String EXPECTED16= "64";
     private static int[] INPUT17 = { -1, 1 };
-    private static String EXPECTED17 = null;
+    private static String EXPECTED17 = "IllegalBase";
     private static int[] INPUT18 = { DecimalConverter.Binary, -1 };
-    private static String EXPECTED18 = null;
+    private static String EXPECTED18 = "IllegalNum";
     // S.Saruwatari
     private static int[] INPUT19 = { DecimalConverter.Binary, -1 };
-    private static String EXPECTED19 = null;
+    private static String EXPECTED19 = "IllegalNum";
     private static int[] INPUT20 = { DecimalConverter.Octal, 9 };
     private static String EXPECTED20 = "11";
     private static int[] INPUT21 = { DecimalConverter.Decimal, 12345 };
@@ -58,7 +58,7 @@ public class DecimalConverterPUT {
     private static int[] INPUT22 = { DecimalConverter.Hexadecimal, 1000 };
     private static String EXPECTED22 = "3e8";
     private static int[] INPUT23 = { 0, 2 };
-    private static String EXPECTED23 = null;
+    private static String EXPECTED23 = "IllegalBase";
 
     @DataPoints
     public static Fixture[] TestData = {
