@@ -107,3 +107,5 @@ Even after your test cases get 100% coverage, I'd like you to write more test ca
 - Koki Kato ([@ajalab](https://github.com/ajalab))
 - Daichi Morita ([@forestaa](https://github.com/forestaa))
 - Shinnosuke Saruwatari ([@uduaulait](https://github.com/uduaulait))
+- [レベルファイブ](https://level-five.jp/)の開発技術部の皆様
+  - 小牟田さん [@ShunsukeKomuta](https://github.com/ShunsukeKomuta)
