@@ -102,7 +102,7 @@ FizzBuzz問題の実装
 1. FEMALEのPrefixを"Ms."から"Miss"に変更。つまり、性別がFEMALEのとき → "Hello, I am Miss. {name}."と出力。
 1. 性別関係なく、名前が空白(""や" ")の時 → "I AM A CAT. As yet I have no name." (吾輩は猫である。名前はまだない。)と出力。
 
-#　エラーメッセージの見方
+# エラーメッセージの見方
 
 ## CUT
 
@@ -236,15 +236,15 @@ Failed tests: テストメソッド名(テストクラス名): テストメソ�
 シェルスクリプトが動かない時は
 
 ```
- $ mvn test-compilet test -Dtest=FizzBuzzCUT
- $ mvn test-compilet test -Dtest=TriangleCUT
- $ mvn test-compilet test -Dtest=DecimalConverterCUT
- $ mvn test-compilet test -Dtest=PersonCUT
+ $ mvn test-compile test -Dtest=FizzBuzzCUT
+ $ mvn test-compile test -Dtest=TriangleCUT
+ $ mvn test-compile test -Dtest=DecimalConverterCUT
+ $ mvn test-compile test -Dtest=PersonCUT
 
- $ mvn test-compilet test -Dtest=FizzBuzzPUT
- $ mvn test-compilet test -Dtest=TriangleCPUT
- $ mvn test-compilet test -Dtest=DecimalConverterCPUT
- $ mvn test-compilet test -Dtest=PersonPUT
+ $ mvn test-compile test -Dtest=FizzBuzzPUT
+ $ mvn test-compile test -Dtest=TriangleCPUT
+ $ mvn test-compile test -Dtest=DecimalConverterCPUT
+ $ mvn test-compile test -Dtest=PersonPUT
 
 ```
 
