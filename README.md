@@ -207,7 +207,7 @@ Failed tests: テストメソッド名(テストクラス名): テストメソ�
  $ cd workspace
  $ git clone git@github.com:tsukakei/autoput-example.git
  $ cd autoput-example
- $ git checkout -b yourname
+ $ git checkout broken-test
  $ mvn compile test-compile dependency:copy-dependencies 
 ``` 
 
