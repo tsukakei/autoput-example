@@ -1,29 +1,9 @@
-# Questions
+# 質問
 
-## Do you think PUT is more readable than CUT? (1 strongly disagree, 5 strongly agree)
-
-
-## Do you think PUT can separate test procedures and parameters? (1 strongly disagree, 5 strongly agree)
+## 失敗テストの特定・修正にエラメッセージは重要か？1 (強くそう思う) から 5 (全くそう思わない)
 
 
-# Informal Comment
+## CUTはPUTよりエラメッセージがわかりやすい？1 (強くそう思う) から 5 (全くそう思わない)
 
-## CUT's good points and bad points
 
-good
-
-- 
-
-bad
-
-- 
-
-## PUT's good points and bad points
-
-good
-
-- 
-
-bad
-
-- 
+# CUTとPUTのエラーメッセージに関するコメント
